@@ -1,0 +1,17 @@
+[Desktop Entry]
+Type=ControlPanelApplet
+Name=SocamFS
+X-logical-id=qtn_prod_socamfs
+X-translation-catalog=socamfsapplet
+X-Maemo-Service=com.nokia.DuiControlPanel
+X-Maemo-Method=com.nokia.DuiControlPanelIf.appletPage
+X-Maemo-Object-Path=/
+X-Maemo-Fixed-Args=SocamFS
+
+[DUI]
+X-DUIApplet-Applet=libsocamfsapplet.so
+
+[DCP]
+Category=Mainpage
+Order=1
+WidgetType=Label
